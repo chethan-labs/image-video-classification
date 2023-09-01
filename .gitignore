@@ -1,0 +1,23 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints / large artifacts
+*.h5
+*.ckpt
+*.pb
+saved_model/
+
+# Datasets (downloaded at runtime via TensorFlow Datasets)
+data/
+*.tfrecord
